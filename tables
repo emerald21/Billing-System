@@ -1,0 +1,8 @@
+mysql> create table bill( bid int primary key , cname varchar(20), iname varchar(20), qty int, total int );
+Query OK, 0 rows affected (0.34 sec)
+
+mysql> create table product( pid int primary key, pname varchar(20), price int); 
+Query OK, 0 rows affected (0.28 sec)
+
+NOTE:
+make these two tables to run billing code on your laptop.
